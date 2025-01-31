@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    {
+      "id": "ANPLAYER_TMDB",
+      "name": "The Movie Database",
+      "description": "TMDb: Your go-to for movies and TV info. Details, reviews, trailers, and more in one place. ",
+      "iconUrl": "",
+      "versionName": "1.0.0",
+      "targetVersion": "2.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/xeinebiu/anplayer_app/refs/heads/main/plugins/tmdb.json"
+    }
+  ]
+}
