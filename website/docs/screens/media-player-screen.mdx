@@ -1,0 +1,380 @@
+---
+sidebar_position: 5
+---
+
+import { Image } from '../../src/components/image';
+import { Row } from '../../src/components/row';
+import { Column } from '../../src/components/column';
+
+# Media Player Screen
+
+<Row>
+  AN Player offers a rich set of features on the **Media Player Screen**. While
+  the interface may seem overwhelming at first due to the number of buttons,
+  each one serves a specific purpose. In this section, we’ll guide you through
+  each feature to help you get the most out of your media playback experience.
+  <Image src="/img/media_player_screen_1.png" />
+</Row>
+
+### Favorite
+
+<Row>
+    <Column>
+        The Media Player Screen includes a **"Star" button** on the toolbar, which allows you to toggle the current
+        stream as a favorite.
+
+        - A **half-filled star** indicates the stream is **not marked as a favorite**.
+        - A **fully filled star** means the stream is **marked as a favorite**.
+    </Column>
+
+    <Image src="/img/media_player_screen_2.png" alt="Favorite Toggle on Media Player Screen"/>
+
+</Row>
+
+### Audio Focus
+
+<Row>
+    <Column>
+        The **Audio Focus Button** lets you customize playback behavior to suit your current situation.
+
+        - **Enabled**: AN Player will automatically adjust the playback volume. For instance:
+        - Music will mute during phone calls.
+        - Volume will lower when audio from another app is playing.
+        - **Disabled**: Playback will continue without interruption, regardless of other activities. This is ideal for
+        scenarios like recording video with your phone camera while playing audio in the background.
+    </Column>
+
+    <Image src="/img/media_player_screen_3.png" alt="Audio Focus Button on Media Player Screen"/>
+
+</Row>
+
+### Sleep Timer
+
+<Column>
+    The **Sleep Timer** feature allows you to set AN Player to automatically pause playback at a specific time. Unlike
+    other apps that use a countdown timer, AN Player lets you choose the exact time you want playback to stop.
+
+    <Row>
+        <Image
+            src="/img/media_player_screen_4.png"
+            alt="Sleep Timer on Media Player Screen"
+        />
+        <Image
+            src="/img/media_player_screen_5.png"
+            alt="Sleep Timer Options on Media Player Screen"
+        />
+    </Row>
+
+</Column>
+
+### Floating Button
+
+<Column>
+    AN Player includes a **Floating Button** that allows you to control playback while using other applications. You can
+    pause, resume, skip tracks, or go back to the previous track. To use this feature, overlay permission is required to
+    display the floating button on top of other apps.
+
+    <Row>
+        <Image
+            src="/img/media_player_screen_6.png"
+            alt="Floating Button on Media Player Screen"
+            width="200"
+        />
+        <Image
+            src="/img/media_player_screen_7.png"
+            alt="Floating Button in Action"
+            width="200"
+        />
+        <Image
+            src="/img/media_player_screen_8.png"
+            alt="Floating Button Overlay Permission"
+            width="200"
+        />
+    </Row>
+
+    Once permission is granted, return to AN Player, and you’ll see the Floating Button. You can drag it to any position
+    on the screen and switch to other apps while the button remains in place.
+
+    By holding the Floating Button, you can trigger an expanded state where additional controls are available, such as:
+
+    <Row>
+        <Image
+            src="/img/media_player_screen_9.png"
+            alt="Expanded Floating Button Controls"
+        />
+        <Image
+            src="/img/media_player_screen_10.png"
+            alt="Floating Button Dismissal"
+        />
+    </Row>
+
+    To dismiss the Floating Button, drag it to the bottom-center of the screen or tap the floating button icon on the
+    media player screen toolbar.
+
+</Column>
+
+### Local Subtitles
+
+<Column>
+    AN Player allows you to load **local subtitles** from your phone directly into the playing stream. The supported
+    subtitle formats include:
+
+    - **WebVTT**
+    File Extension: `.vtt`
+    Mime Type: `text/vtt`
+
+    - **TTML / SMPTE-TT**
+    File Extension: `.ttml`
+    Mime Type: `application/ttml+xml`
+
+    - **SubRip (SRT)**
+    File Extension: `.srt`
+    Mime Type: `application/x-subrip`
+
+    - **SubStation Alpha (SSA/ASS)**
+    File Extension: `.ssa`, `.ass`
+    Mime Type: `text/x-ssa`
+
+    Clicking the **Local Subtitles** button will open the **File Picker**, where you can browse and select the subtitle
+    file
+    to load into the stream.
+
+    On the example below, we are selecting "4. No Hour.vtt"
+
+    <Row>
+        <Image
+            src="/img/media_player_screen_12.png"
+            alt="Expanded Floating Button Controls"
+        />
+        <Image
+            src="/img/media_player_screen_13.png"
+            alt="Floating Button Dismissal"
+        />
+    </Row>
+
+</Column>
+
+### Stream Details
+
+<Row>
+  <Column>
+    The **Stream Details Button** navigates you to the **Media Screen**, where
+    you can access more information about a specific stream. // TODO (add media
+    screen reference here)
+  </Column>
+  <Image
+    src="/img/media_player_screen_14.png"
+    alt="Stream Details Button on Media Player Screen"
+  />
+</Row>
+
+### Share
+
+<Row>
+  <Column>
+    The **Share Button** allows you to share the active stream with other apps.
+    If the stream is stored on your device, the file itself is shared. If the
+    stream is from a plugin, the URL of the media is shared instead.
+  </Column>
+  <Image
+    src="/img/media_player_screen_15.png"
+    alt="Share Button on Media Player Screen"
+  />
+</Row>
+
+### Cast
+
+<Column>
+    The **Cast Button** allows you to stream the current playback to another device. AN Player supports two casting
+    methods: **Google Cast** and **AN Player Receiver Casting**.
+    TODO: Add link to CASTING documentation.
+
+    <Row>
+        <Image
+            src="/img/media_player_screen_16.png"
+            alt="Cast Button on Media Player Screen"
+        />
+        <Image
+            src="/img/media_player_screen_17.png"
+            alt="Casting Options on Media Player Screen"
+        />
+    </Row>
+
+</Column>
+
+### Full Screen
+
+<Row>
+  <Column>
+    The **Full Screen Button** allows you to enter full screen mode. In this
+    mode, additional toolbar functionalities become available, which are
+    accessible exclusively when in full screen.
+  </Column>
+  <Image
+    src="/img/media_player_screen_18.png"
+    alt="Full Screen Button on Media Player Screen"
+  />
+</Row>
+
+### Scale
+
+<Column>
+    While in **full screen mode**, you can scale the video to fit your preferences. AN Player offers several scaling
+    options to ensure the video displays perfectly on your screen:
+
+    - **Fit to Screen**: Adjusts the video to fit the screen dimensions without cropping.
+    - **Fill Screen**: Expands the video to fill the entire screen, which may crop the edges.
+    - **Original Size**: Displays the video in its original aspect ratio.
+
+    <Row>
+        <Image
+            src="/img/media_player_screen_28.png"
+            alt="Scaling Options in Full Screen Mode"
+            width="200"
+        />
+        <Image
+            src="/img/media_player_screen_29.png"
+            alt="Scaling Options in Full Screen Mode"
+            width="200"
+        />
+        <Image
+            src="/img/media_player_screen_30.png"
+            alt="Scaling in Action"
+            width="200"
+        />
+    </Row>
+
+</Column>
+
+### PiP Mode
+
+<Column>
+    While in **full screen mode**, you can switch to **PiP (Picture-in-Picture) mode** by pressing the button
+    highlighted below. PiP mode allows you to continue watching your video in a small, resizable window that floats
+    above other apps, making it possible to multitask without interrupting playback.
+
+    <Row>
+        <Image
+            src="/img/media_player_screen_20.png"
+            alt="PiP Mode Button on Media Player Screen"
+
+        />
+        <Image
+            src="/img/media_player_screen_19.png"
+            alt="PiP Mode in Action"
+
+        />
+    </Row>
+
+</Column>
+
+### Repeat Button
+
+<Row>
+    <Column>
+        The **Repeat Button** allows you to loop the current playback. You can
+        choose between three modes: - **Repeat Off**: Playback continues normally
+        without looping. - **Repeat One**: Repeats the current track or video
+        indefinitely. - **Repeat All**: Repeats the entire playlist or queue.
+    </Column>
+    <Image
+        src="/img/media_player_screen_21.png"
+        alt="Repeat Button on Media Player Screen"
+
+    />
+
+</Row>
+
+### Previous Button
+
+<Row>
+    <Column>
+        The **Previous Button** allows you to skip to the previous track or video in
+        the playlist or queue. If you are near the start of the current playback,
+        pressing this button will restart the track or video.
+    </Column>
+    <Image
+        src="/img/media_player_screen_22.png"
+        alt="Previous Button on Media Player Screen"
+
+    />
+
+</Row>
+
+### Decrease Playback Speed
+
+<Row>
+    <Column>
+        The **Decrease Playback Speed Button** lets you slow down the playback
+        speed. This is useful for carefully listening to or watching content, such
+        as tutorials, lectures, or complex scenes.
+    </Column>
+    <Image
+        src="/img/media_player_screen_23.png"
+        alt="Decrease Playback Speed Button on Media Player Screen"
+
+    />
+
+</Row>
+
+### Toggle Pause/Resume
+
+<Row>
+    <Column>
+        The **Toggle Pause/Resume Button** allows you to pause or resume playback.
+    </Column>
+    <Image
+        src="/img/media_player_screen_24.png"
+        alt="Pause/Resume Button on Media Player Screen"
+
+    />
+
+</Row>
+
+### Increase Playback Speed
+
+<Row>
+    <Column>
+        The **Increase Playback Speed Button** lets you speed up the playback. This
+        is ideal for quickly skimming through content or saving time when watching
+        or listening to longer media.
+    </Column>
+    <Image
+        src="/img/media_player_screen_25.png"
+        alt="Increase Playback Speed Button on Media Player Screen"
+
+    />
+
+</Row>
+
+### Next Button
+
+<Row>
+    <Column>
+        The **Next Button** allows you to skip to the next track or video in the
+        playlist or queue. This is useful for quickly moving forward in a series of
+        media files.
+    </Column>
+    <Image
+        src="/img/media_player_screen_26.png"
+        alt="Next Button on Media Player Screen"
+
+    />
+
+</Row>
+
+### Shuffle
+
+<Row>
+    <Column>
+        The **Shuffle Button** randomizes the order of tracks or videos in your
+        playlist or queue. This is perfect for creating a dynamic listening or
+        viewing experience, especially for large playlists.
+    </Column>
+    <Image
+        src="/img/media_player_screen_27.png"
+        alt="Shuffle Button on Media Player Screen"
+
+    />
+
+</Row>

@@ -1,0 +1,72 @@
+---
+sidebar_position: 3
+---
+
+import { Image } from '../../src/components/image';
+import { Row } from '../../src/components/row';
+import { Column } from '../../src/components/column';
+
+# Discover Screen
+
+## Search Bar
+
+The Discover screen in AN Player features a versatile **Search Bar** that allows users to search for various types of content, including:
+
+- Audio
+- Video
+- Artists
+- Playlists
+- Series
+- Movies
+- And more
+
+When you perform a search, AN Player will scan **all installed plugins** as well as your **device storage ([Device Content](../setup/device-content))** to deliver comprehensive results.
+
+### Auto Completions
+
+<Row>
+    AN Player provides **Auto Completions** as you type in the Search Bar, helping you quickly find relevant content
+    by
+    suggesting matches based on your input.
+
+    <Image src="/img/discover_screen_1.png" alt="Discover Screen"/>
+
+</Row>
+
+### URL Scanning
+
+The Search Bar includes a **QR Scanner** feature, accessible via the QR button located on the Search Bar. This allows you to scan URLs quickly and easily.
+
+Alternatively, you can manually paste a URL into the Search Bar and initiate a search. AN Player will automatically attempt to identify the URL using the installed plugins.
+
+### Direct Stream Playback
+
+<Column>
+    Both the QR Scanner and manual URL input allow you to play direct streams on AN Player, whether it's an audio or
+    video stream.
+
+    To play a direct stream using a manual URL, simply paste the URL into the Search Bar and press the **"Search"**
+    button on your keyboard. AN Player will automatically identify and play the stream.
+
+    <Row>
+        <Image src="/img/discover_screen_2.png"/>
+        <Image src="/img/discover_screen_3.png"/>
+    </Row>
+
+</Column>
+
+## Content
+
+<Column>
+    By default, AN Player displays all installed **Plugins** on the Discover screen. The first source shown will be your
+    **phone's local content** (if permission is granted by the user).
+
+    Following this, all plugins will sequentially load their feeds onto the Discover screen. You can **scroll
+    horizontally** to browse through each plugin's content.
+
+    To explore the content of a specific plugin or source, simply tap on the plugin's **title** (indicated by the right
+    chevron icon ▶). This will allow you to dive deeper into the content offered by that particular plugin.
+
+    <Image src="/img/discover_screen_4.png"/>
+
+</Column>
