@@ -12,6 +12,11 @@
 
 /* styles.css */
 
+/* temp fix */
+.menu__link[href="/anplayer_app/docs/tos/"] {
+  display: none;
+}
+
 p {
   flex: 1;
   margin: 0;
